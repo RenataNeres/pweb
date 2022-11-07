@@ -1,0 +1,137 @@
+body{
+    background-color: #fff3d1;
+  }
+  
+  #navbar{
+    height: 3em;
+    line-height: 3em;
+    min-height: 50px;
+    background-color: #ff4d4d;
+    border-radius: 5px;
+  }
+  
+  #navbar a{
+    float: left;
+    margin-left: 27%;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align:center;
+  }
+  
+  #cardapio{
+    flex-direction:column;
+    justify-content: center; 
+    height: 45%;
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  #container img{
+    padding: 5px;
+    width: 250px;
+    height:200px;
+    border-radius:50px;
+  }
+  
+  #item{
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    color:#fff;
+    background-color:rgba(0,0,0, 0.85);
+    margin: 10px;
+    border-radius: 5px;
+    padding:20px;
+    height: 11cm;
+    width: 10cm;
+    } 
+  
+  #item img{
+    height: 9cm;
+    width: 8cm;
+    justify-content: center; 
+    border-radius: 30px;
+    margin-left: 10%;
+  }
+  
+  #item p{
+    font-size: 14px;
+  }
+  
+  #item button{
+    background-color:#dc143c;
+    padding: 10px;
+    border-radius:5px;
+    border:none;
+    color: #ffffff;
+    font-size:14px;
+    font-weight:bold;
+    cursor: pointer;
+  }
+  
+  #item button:hover{
+    background-color:#f77e4b; 
+  }
+  
+  #about{
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    color:#fff;
+    background-color:rgba(0,0,0, 0.85);
+    margin: 10px;
+    border-radius: 5px;
+    padding:20px;
+    } 
+  
+  #about h1{
+    font-style: italic;
+  }
+  
+  #about p{
+    padding-top: 40px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:18px;
+    font-family:georgia;
+    text-align:justify;
+    font-style:italic;
+  } 
+  
+  #conteiner img {
+  height:200px;
+  width:250px;
+  }
+  #container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    }
+  
+  #body-about{
+    display: flex;
+    flex-direction:row;
+  }
+  #about button{
+    background-color:#dc143c;
+    padding: 15px;
+    border-radius:5px;
+    border:none;
+    color: #ffffff;
+    font-size:14px;
+    font-weight:bold;
+    cursor: pointer;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+  }
+  #about button:hover{
+    background-color:#f77e4b; 
+  }
